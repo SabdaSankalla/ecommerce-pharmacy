@@ -1,9 +1,9 @@
 package routes
 
 import (
+	"github.com/SabdaSankalla/ecommerce-pharmacy/handlers"
+	"github.com/SabdaSankalla/ecommerce-pharmacy/middleware"
 	"github.com/gin-gonic/gin"
-	"ecommerce-pharmacy/handlers"
-	"ecommerce-pharmacy/middleware"
 )
 
 func SetupRoutes(router *gin.Engine) {

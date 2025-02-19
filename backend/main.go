@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/SabdaSankalla/ecommerce-pharmacy/database"
+	"github.com/SabdaSankalla/ecommerce-pharmacy/routes"
 	"github.com/gin-gonic/gin"
-	"github.com/SabdaSankalla/ecommerce-pharmacy/backend/database"
-    "github.com/SabdaSankalla/ecommerce-pharmacy/backend/routes"
 )
 
 func main() {
@@ -17,5 +17,5 @@ func main() {
 	routes.SetupRoutes(r)
 
 	// Run Server
-	r.Run(":8080")
+	r.Run(":5050")
 }

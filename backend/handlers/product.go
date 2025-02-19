@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"ecommerce-pharmacy/database"
-	"ecommerce-pharmacy/models"
 	"net/http"
 	"time"
+
+	"github.com/SabdaSankalla/ecommerce-pharmacy/database"
+	"github.com/SabdaSankalla/ecommerce-pharmacy/models"
 
 	"github.com/gin-gonic/gin"
 )

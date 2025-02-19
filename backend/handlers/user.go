@@ -1,15 +1,17 @@
 package handlers
 
 import (
-	"ecommerce-pharmacy/database"
-	"ecommerce-pharmacy/models"
 	"net/http"
 	"time"
 
+	"github.com/SabdaSankalla/ecommerce-pharmacy/database"
+	"github.com/SabdaSankalla/ecommerce-pharmacy/models"
+
+	"os"
+
+	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"golang.org/x/crypto/bcrypt"
-	"github.com/dgrijalva/jwt-go"
-	"os"
 )
 
 func RegisterUser(c *gin.Context) {
